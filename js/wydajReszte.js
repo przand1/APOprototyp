@@ -1,0 +1,3 @@
+wydajReszte = function() {
+
+}
