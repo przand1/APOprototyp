@@ -1,25 +1,35 @@
-#tlo{
-	width: 600px;
-	height: 800px;
+#tlo {
 	border-radius: 10%;
 	background-color: #aaf;
-	position: absolute;
-	left: 25%;
-	padding: 20px;
-
+	padding: 50px;
 }
-#ekran{
-	height: 300px;
-	width: auto;
+#ekran {
 	background-color: #0ff;
 	margin: 0;
+	border-radius: 15%;
+	height: 200px;
+	padding: 50px;
+	font-size: 50px;
 }
 .zakupBiletu {
-	width: 250px;
-	height: 100px;
 	display: inline-block;
 	background-color: #9a7;
 	border-radius: 10%;
 	text-align: center;
-	margin: 0;
+	margin: 10px;
+	padding: 50px;
+	width: 100px;
+}
+#zp {
+	display: inline-block;
+	width: 20%;
+	position: relative;
+	bottom: 300px;
+}
+.zaplac {
+	padding: 50px;
+	width: 80%;
+	background-color: #dd2;
+	text-align: center;
+	margin: 10px;
 }
