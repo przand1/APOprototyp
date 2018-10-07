@@ -2,6 +2,7 @@
 	border-radius: 10%;
 	background-color: #aaf;
 	padding: 50px;
+	z-index: 1;
 }
 #ekran {
 	background-color: #0ff;
@@ -32,4 +33,23 @@
 	background-color: #dd2;
 	text-align: center;
 	margin: 10px;
+}
+#wyborMonet {
+	width: 400px;
+	height: 400px;
+	background-color: #ddd;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: -1;
+}
+.moneta {
+	background-color: gold;
+	border-radius: 50%;
+	display: inline-block;
+	padding: 20px;
+	width: 30px;
+	height: 30px;
+	margin: 5px;
+	text-align: center;
 }
