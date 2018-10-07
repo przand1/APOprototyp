@@ -18,6 +18,8 @@ Należy zbudować oprogramowanie wykorzystywane do obsługi poznańskiego bileto
     -   Automat powinien przyjmować pieniądze zarówno w bilonie jak i banknoty.
     -   Automat powinien móc wydać resztę.
     -   Automat powinien poinformować jakich banknotów nie przyjmuje(np. nie rozmieni 100zł).
+    -   Automat powinien przyjmować waluty: złoty oraz euro.
+    -   W razie niemożliwości dokonania zakupu, automat musi zwrócić użytkownikowi jego pieniądze.
 -   Karta:
     -   Automat powinien obsługiwać płatność kartą zbliżeniowo.
     -   Automat powinien obsługiwać płatność kartą z podaniem kodu PIN.
@@ -40,7 +42,7 @@ Należy zbudować oprogramowanie wykorzystywane do obsługi poznańskiego bileto
         -   angileskiej
         -   niemieckiej
         -   rosyjskiej
-    -   Możliwość wyboru języka powinna być dostępna od razu po rozpoczęciu korzystania z automatu
+    -   Możliwość wyboru języka powinna być dostępna od razu po rozpoczęciu korzystania z automatu.
     -   Automat powinien umożliwiać połączenie z działem obsługi klienta w razie problemów.
     -   W przypadku braku jakiegoś surowca automat wysyła informację do centrali(o przysłanie serwisanta)
     -   W sytuacji braku jakiegoś surowca lub awarii wyświetla się ERROR na ekranie i maszyna się blokuje.
