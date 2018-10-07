@@ -17,40 +17,40 @@
 		</div>
 		<div style="width:70%;display:inline-block;">
 			<div class="zakupBiletu" onclick="kupBilet(0,true)">
-				10 minut<br>ulgowy
+				10 minut ulgowy<br><br>1,50
 			</div>
 			<div class="zakupBiletu" onclick="kupBilet(0,false)">
-				10 minut<br>normalny
+				10 minut normalny<br><br>3,00
 			</div>
 			<div class="zakupBiletu" onclick="kupBilet(1,true)">
-				40 minut<br>ulgowy
+				40 minut ulgowy<br><br>2,30
 			</div>
 			<div class="zakupBiletu" onclick="kupBilet(1,false)">
-				40 minut<br>normalny
+				40 minut normalny<br><br>4,60
 			</div>
 			<div class="zakupBiletu" onclick="kupBilet(2,true)">
-				24 godziny<br>ulgowy
+				24 godziny ulgowy<br><br>6,80
 			</div>
 			<div class="zakupBiletu" onclick="kupBilet(2,false)">
-				24 godziny<br>normalny
+				24 godziny normalny<br><br>13,60
 			</div>
 			<div class="zakupBiletu" onclick="kupBilet(3,true)">
-				48 godzin<br>ulgowy
+				48 godzin ulgowy<br><br>10,50
 			</div>
 			<div class="zakupBiletu" onclick="kupBilet(3,false)">
-				48 godzin<br>normalny
+				48 godzin normalny<br><br>21,00
 			</div>
 			<div class="zakupBiletu" onclick="kupBilet(4,true)">
-				72 godziny<br>ulgowy
+				72 godziny ulgowy<br><br>13,50
 			</div>
 			<div class="zakupBiletu" onclick="kupBilet(4,false)">
-				72 godziny<br>normalny
+				72 godziny normalny<br><br>27,00
 			</div>
 			<div class="zakupBiletu" onclick="kupBilet(5,true)">
-				7 dni<br>ulgowy
+				7 dni ulgowy<br><br>23,50
 			</div>
 			<div class="zakupBiletu" onclick="kupBilet(5,false)">
-				7 dni<br>normalny
+				7 dni normalny<br><br>47,00
 			</div>
 		</div>
 		<div id="zp">
@@ -60,36 +60,37 @@
 			<div class="zaplac">
 				Płatność kartą
 			</div>
+			<input type="button" value="Pokaż zasoby" onclick="pokazZasoby()">
 		</div>
 	</div>
 	<div id="wyborMonet">
-		<div class="moneta" onclick="wrzuc(0.01)">
+		<div class="moneta" onclick="wrzuc(0.01,`gr1`)">
 			1gr
 		</div>
-		<div class="moneta" onclick="wrzuc(0.02)">
+		<div class="moneta" onclick="wrzuc(0.02,`gr2`)">
 			2gr
 		</div>
-		<div class="moneta" onclick="wrzuc(0.05)">
+		<div class="moneta" onclick="wrzuc(0.05,`gr5`)">
 			5gr
 		</div>
 		<br>
-		<div class="moneta" onclick="wrzuc(0.1)">
+		<div class="moneta" onclick="wrzuc(0.1,`gr10`)">
 			10gr
 		</div>
-		<div class="moneta" onclick="wrzuc(0.2)">
+		<div class="moneta" onclick="wrzuc(0.2,`gr20`)">
 			20gr
 		</div>
-		<div class="moneta" onclick="wrzuc(0.5)">
+		<div class="moneta" onclick="wrzuc(0.5,`gr50`)">
 			50gr
 		</div>
 		<br>
-		<div class="moneta" onclick="wrzuc(1)">
+		<div class="moneta" onclick="wrzuc(1,`zl1`)">
 			1zł
 		</div>
-		<div class="moneta" onclick="wrzuc(2)">
+		<div class="moneta" onclick="wrzuc(2,`zl2`)">
 			2zł
 		</div>
-		<div class="moneta" onclick="wrzuc(5)">
+		<div class="moneta" onclick="wrzuc(5,`zl5`)">
 			5zł
 		</div>
 	</div>

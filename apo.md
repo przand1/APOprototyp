@@ -39,7 +39,7 @@ Należy zbudować oprogramowanie wykorzystywane do obsługi poznańskiego bileto
 -   Pomoc/Obsługa:
     -   Interfejs użytkownika powinien być dostępny w przynajmniej 4 wersjach językowych:
         -   polskiej
-        -   angileskiej
+        -   angielskiej
         -   niemieckiej
         -   rosyjskiej
     -   Możliwość wyboru języka powinna być dostępna od razu po rozpoczęciu korzystania z automatu.
