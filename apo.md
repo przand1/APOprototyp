@@ -43,6 +43,7 @@ Należy zbudować oprogramowanie wykorzystywane do obsługi poznańskiego bileto
         -   niemieckiej
         -   rosyjskiej
     -   Możliwość wyboru języka powinna być dostępna od razu po rozpoczęciu korzystania z automatu.
+    -   Użytkownik powinien mieć możliwość anulowania zakupów przed dokonaniem płatności
     -   Automat powinien umożliwiać połączenie z działem obsługi klienta w razie problemów.
     -   W przypadku braku jakiegoś surowca automat wysyła informację do centrali(o przysłanie serwisanta)
     -   W sytuacji braku jakiegoś surowca lub awarii wyświetla się ERROR na ekranie i maszyna się blokuje.

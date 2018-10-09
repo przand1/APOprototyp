@@ -5,8 +5,16 @@
 	<title>Biletomat</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="css/index.css">
+
   <script src="js/wczytajZasoby.js" type="text/javascript"></script>
-  <script src="js/skrypty.js" type="text/javascript"></script>
+  <script src="js/misc.js" type="text/javascript"></script>
+  <script src="js/info.js" type="text/javascript"></script>
+  <script src="js/platnosci.js" type="text/javascript"></script>
+  <script src="js/dodajPndze.js" type="text/javascript"></script>
+  <script src="js/kupBilet.js" type="text/javascript"></script>
+  <script src="js/wrzuc.js" type="text/javascript"></script>
+  <script src="js/wydajReszte.js" type="text/javascript"></script>
+	<script src="js/anuluj.js" type="text/javascript"></script>
 
 </head>
 
@@ -54,10 +62,13 @@
 			</div>
 		</div>
 		<div id="zp">
+			<div class="zaplac" style="background-color:#2f2;" onclick="anuluj()">
+				Anuluj
+			</div>
 			<div class="zaplac" onclick="platnoscG()">
 				Płatność gotówką
 			</div>
-			<div class="zaplac">
+			<div class="zaplac" onclick="platnoscK()">
 				Płatność kartą
 			</div>
 			<input type="button" value="Pokaż zasoby" onclick="pokazZasoby()">
@@ -92,6 +103,21 @@
 		</div>
 		<div class="moneta" onclick="wrzuc(5,`zl5`)">
 			5zł
+		</div>
+		<div class="banknot" onclick="wrzuc(10,`zl10`)">
+			10zł
+		</div>
+		<div class="banknot" onclick="wrzuc(20,`zl20`)">
+			20zł
+		</div>
+		<div class="banknot" onclick="wrzuc(50,`zl50`)">
+			50zł
+		</div>
+		<div class="banknot" onclick="wrzuc(100,`zl100`)">
+			100zł
+		</div>
+		<div class="banknot" onclick="wrzuc(200,`zl200`)">
+			200zł
 		</div>
 	</div>
 </body>

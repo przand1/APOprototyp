@@ -42,3 +42,7 @@ let nominaly = [
 	{ wartosc: 0.02, nazwa: "gr2" },
 	{ wartosc: 0.01, nazwa: "gr1" },
 ];
+
+let doZaplaty = 0;
+let zaplacono = {};
+let bilCount = 0;

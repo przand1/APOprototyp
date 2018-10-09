@@ -24,8 +24,6 @@
 #zp {
 	display: inline-block;
 	width: 20%;
-	position: relative;
-	bottom: 300px;
 }
 .zaplac {
 	padding: 50px;
@@ -35,8 +33,6 @@
 	margin: 10px;
 }
 #wyborMonet {
-	width: 400px;
-	height: 400px;
 	background-color: #ddd;
 	position: absolute;
 	top: 50%;
@@ -52,5 +48,14 @@
 	width: 30px;
 	height: 30px;
 	margin: 5px;
+	text-align: center;
+}
+.banknot {
+	background-color: grey;
+	display: inline-block;
+	width: 100px;
+	height: 50px;
+	margin: 5px;
+	padding: 10px;
 	text-align: center;
 }
